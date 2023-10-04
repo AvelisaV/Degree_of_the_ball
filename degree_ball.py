@@ -12,7 +12,7 @@ def degrees(time: float, accel: float, rad: float, veloc: float = 0) -> float:
         veloc: float - velocity of the ball during movement.
 
     Returns:
-        float
+        Degree of the ball: float
     """
 
     circle = 2 * pi * rad
@@ -23,3 +23,4 @@ def degrees(time: float, accel: float, rad: float, veloc: float = 0) -> float:
 
 
 print(degrees(17, 4, 9, 6))
+#на проверке
