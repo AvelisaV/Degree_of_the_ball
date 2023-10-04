@@ -13,3 +13,4 @@ test_data = [
 def test_degree_ball(time: float, accel: float, rad: float, veloc: float,
                      expected: float) -> float:
     assert degrees(time, accel, rad, veloc) == expected
+#на проверке
